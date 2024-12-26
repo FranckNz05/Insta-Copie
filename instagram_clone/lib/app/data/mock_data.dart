@@ -1,7 +1,7 @@
 class MockData {
   static final List<Map<String, dynamic>> stories = [
     {
-      'username': 'your_story',
+      'username': 'Votre story',
       'imageUrl': 'https://picsum.photos/200',
       'userImage': 'https://picsum.photos/200',
       'isViewed': false,
@@ -111,9 +111,9 @@ class MockData {
   ];
 
   static final Map<String, dynamic> currentUser = {
-    'username': 'thisisfranknz',
-    'fullName': 'Franck Nz',
-    'bio': '05 May 🎉\nprogramming enthusiast 👨‍💻\nMy 🌍 = Me + My goals.',
+    'username': 'thisisjohndoe',
+    'fullName': 'John Doe',
+    'bio': "programming enthusiast 👨‍💻\nMy 🌍 = Me + My goals.',
     'profileImage': 'https://picsum.photos/200',
     'followers': 1847,
     'following': 949,

@@ -10,7 +10,7 @@ class ProfileView extends GetView<ProfileController> {
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: Text(
-          'thisisfranknz',
+          'thisisjohndoe',
           style: TextStyle(color: Colors.white),
         ),
         actions: [
@@ -59,7 +59,7 @@ class ProfileView extends GetView<ProfileController> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Franck Nz',
+                    'John Doe',
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
@@ -67,7 +67,7 @@ class ProfileView extends GetView<ProfileController> {
                   ),
                   SizedBox(height: 4),
                   Text(
-                    '05 May \nprogramming enthusiast \nMy  = Me + My goals.',
+                    'Programming enthusiast.',
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
